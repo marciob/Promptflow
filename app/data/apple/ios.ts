@@ -1,8 +1,6 @@
 import { Tip } from "../tips";
 
-export interface iOSGuideline extends Tip {}
-
-export const iosGuidelines: iOSGuideline[] = [
+export const iosGuidelines: Tip[] = [
   {
     title: "Designing for iOS",
     description:

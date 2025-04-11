@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Hero } from "./components/Hero";
 import { FilterSection } from "./components/FilterSection";
-import { CopyButton } from "./components/CopyButton";
 import { tips } from "./data/tips";
 import {
   iosGuidelines,

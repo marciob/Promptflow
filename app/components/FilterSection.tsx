@@ -1,6 +1,3 @@
-import { useState } from "react";
-import { FilterButton } from "./FilterButton";
-
 interface FilterSectionProps {
   contentTypeFilters?: string[];
   tagFilters: string[];

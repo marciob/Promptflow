@@ -1,8 +1,6 @@
 import { Tip } from "../tips";
 
-export interface ColorGuideline extends Tip {}
-
-export const colorGuidelines: ColorGuideline[] = [
+export const colorGuidelines: Tip[] = [
   {
     title: "Apple iOS and iPadOS Color Guidelines",
     description:
@@ -15,9 +13,9 @@ This reference follows Apple's official guidelines on color for iOS and iPadOS d
 GENERAL PRINCIPLES
 
 - Color should improve communication, reinforce hierarchy, indicate state, and express branding.
-- Use Apple’s dynamic system colors whenever possible, as they adapt to light/dark modes, accessibility settings, and user preferences.
+- Use Apple's dynamic system colors whenever possible, as they adapt to light/dark modes, accessibility settings, and user preferences.
 - When using custom colors, provide light and dark variants and maintain sufficient contrast.
-- Don’t rely solely on color to convey meaning. Always provide alternative indicators (icons, shapes, labels).
+- Don't rely solely on color to convey meaning. Always provide alternative indicators (icons, shapes, labels).
 - Be mindful of cultural differences in color interpretation.
 
 ---
@@ -29,8 +27,8 @@ BEST PRACTICES
 - Support light and dark appearances using system dynamic colors or custom variants.
 - Test your app under multiple lighting conditions and across different devices.
 - Use system color pickers when allowing users to select colors.
-- Avoid hardcoding color values. Use semantic APIs like UIColor.label or SwiftUI’s Color.primary.
-- Don’t override the meaning of system semantic colors.
+- Avoid hardcoding color values. Use semantic APIs like UIColor.label or SwiftUI's Color.primary.
+- Don't override the meaning of system semantic colors.
 - Avoid replicating or redefining dynamic system colors—they may change across OS versions.
 
 ---
@@ -188,7 +186,7 @@ PLATFORM NOTES
 - Use systemBackground for main views, secondarySystemBackground for grouped content, and so on.
 - visionOS uses "glass" materials that automatically adapt to surroundings.
 - True Tone displays adjust the white point based on ambient light—test under various lighting.
-- Don’t assume color will look the same across displays—test on multiple devices.
+- Don't assume color will look the same across displays—test on multiple devices.
 
     `,
     tags: [

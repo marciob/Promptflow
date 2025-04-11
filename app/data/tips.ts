@@ -3,6 +3,7 @@ export interface Tip {
   description: string;
   prompt?: string;
   tags?: string[];
+  example?: string;
 }
 
 export const tips: Tip[] = [
